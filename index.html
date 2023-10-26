@@ -4,38 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
+
+    <link rel="stylesheet" href="assents/css/reset.css">
+    <link rel="stylesheet" href="assents/css/style.css">
+    <link rel="stylesheet" href="assents/css/nav.css">
+    <link rel="stylesheet" href="assents/css/cabecalho.css">
+    <link rel="stylesheet" href="assents/css/principal.css">
+    <link rel="stylesheet" href="assents/css/rodape.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre Nós</a></li>
+        <ul class="nav-indices">
+            <li><a class="nav-links" href="index.html" >Início</a></li>
+            <li><a class="nav-links" href="sobre.html">Sobre</a></li>
         </ul>
     </nav>
-    <header>
-        <h1>Animações Favoritas da Infância</h1>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">Animações Favoritas da Infância</h1>
     </header>
     <main>
-        <section>
-            <h2>Desenhos</h2>
-            <h3>Coragem o Cão Covarde</h3>
-            <img src="assents/imagens/coragem.jpg" alt="imagem de um cachorro lilás com uma aparência assustada" width="200px">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, enim iste blanditiis labore eveniet temporibus doloribus quaerat magni atque odio nam, vero quasi cumque, perspiciatis fugiat reiciendis architecto expedita non id eligendi? Minima eos error placeat? Quia libero quisquam laudantium mollitia facere eum fugiat corrupti ducimus fuga dolores! Doloremque, ex.</p>
-
-            <h3>As Meninas Superpoderosas</h3>
-            <img src="assents/imagens/meninas-superpoderosas.png" alt="imagem de três meninas" width="200px">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, enim iste blanditiis labore eveniet temporibus doloribus quaerat magni atque odio nam, vero quasi cumque, perspiciatis fugiat reiciendis architecto expedita non id eligendi? Minima eos error placeat? Quia libero quisquam laudantium mollitia facere eum fugiat corrupti ducimus fuga dolores! Doloremque, ex.</p>
+        <section class="categorias">
+            <h2 class="categoria-titulo">Desenhos</h2>
+            <ul class="categoria-lista">
+                <li class="categoria-itens">
+                    <img class="imagem" src="assents/imagens/coragem.jpg" alt="imagem de um cachorro lilás com uma aparência assustada" width="150px">
+                    <div class="categoria-conteudo">
+                        <h3 class="categoria-subtitulo">Coragem o Cão Covarde</h3>
+                        <p class="resumo">
+                            Coragem é um cachorro que vive em uma fazenda distante onde acontecem aparições de monstros, fantasmas e outras criaturas. O animal está sempre defendendo e salvando seus donos idosos de eventos misteriosos.
+                        </p>
+                    </div>
+                </li>
+                <li class="categoria-itens">
+                    <img class="imagem" src="assents/imagens/meninas-superpoderosas.png" alt="imagem de três meninas" width="150px">
+                    <div class="categoria-conteudo">
+                        <h3 class="categoria-subtitulo">As Meninas Superpoderosas</h3>
+                        <p class="resumo">
+                            Acidentalmente criadas em laboratório por um professor, três irmãs combatem os malfeitores em Townsville.
+                        </p>
+                    </div>
+                </li>
+                <li class="categoria-itens">
+                    <img class="imagem" src="assents/imagens/liga-da-justica-sem-limites.jpg.crdownload" alt="imagem de um grupo de super-herois" width="150px">
+                    <div class="categoria-conteudo">
+                        <h3 class="categoria-subtitulo">Liga da Justiça sem Limites</h3>
+                        <p class="resumo">
+                            Liga da Justiça Sem Limites é uma série de desenho animado estadunidense, produção conjunta da Warner Bros. e da DC Comics, e sucedeu ao desenho Liga da Justiça.
+                        </p>
+                    </div>
+                </li>
+                <li class="categoria-itens">
+                    <img class="imagem" src="assents/imagens/jovens-titans.png" alt="imagem de um grupo de super-herois" width="150px">
+                    <div class="categoria-conteudo">
+                        <h3 class="categoria-subtitulo">Jovem Titans</h3>
+                        <p class="resumo">
+                            Robin, Estelar e outros super-heróis vivem juntos sem supervisão adulta e lidam com as questões diárias do universo jovem quando não estão salvando o mundo.
+                        </p>
+                    </div>
+                </li>
+                <li class="categoria-itens">
+                    <img class="imagem" src="assents/imagens/sem-titulo.png" alt="" width="150px">
+                    <div class="categoria-conteudo">
+                        <h3 class="categoria-subtitulo">Título</h3>
+                        <p class="resumo">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas omnis, amet a, atque iure natus provident iste, labore blanditiis saepe nam molestiae animi! Obcaecati mollitia veniam doloremque animi! Recusandae, facilis.
+                        </p>
+                    </div>
+                </li>
+                <li class="categoria-itens">
+                    <img class="imagem" src="assents/imagens/sem-titulo.png" alt="" width="150px">
+                    <div class="categoria-conteudo">
+                        <h3 class="categoria-subtitulo">Título</h3>
+                        <p class="resumo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus optio quibusdam ex facilis dolorum non neque tempore accusamus quaerat molestias, expedita necessitatibus? Eius dolor explicabo delectus consequatur mollitia veritatis aspernatur!
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </section>
         <hr>
-        <section>
-            <h2>Filmes</h2>
-            <h3>O Rei Leão</h3>
-            <img src="assents/imagens/rei-leao.jpg" alt="imagem de um leão e uma leoa" width="200px">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, enim iste blanditiis labore eveniet temporibus doloribus quaerat magni atque odio nam, vero quasi cumque, perspiciatis fugiat reiciendis architecto expedita non id eligendi? Minima eos error placeat? Quia libero quisquam laudantium mollitia facere eum fugiat corrupti ducimus fuga dolores! Doloremque, ex.</p>
+        <section class="categorias">
+            <h2 class="categoria-titulo">Filmes</h2>
+            <ul class="categoria-lista">
+                <li class="categoria-itens">
+                    <img class="imagem" src="assents/imagens/mulan.png" alt="imagem de um cachorro lilás com uma aparência assustada" width="150px">
+                    <div class="categoria-conteudo">
+                        <h3 class="categoria-subtitulo">Mulan</h3>
+                        <p class="resumo"> 
+                            Mulan, uma jovem chinesa, teme que seu pai, um homem doente, seja convocado para lutar na guerra que se aproxima. A garota então se disfarça de homem e assume o posto de seu pai no exército chinês. Acompanhada por seu dragão Mushu, Mulan parte para a linha de batalha, e combate os hunos com a ajuda de seus amigos.</p>
+                    </div>
+                </li>
+                <li class="categoria-itens">
+                    <img class="imagem" src="assents/imagens/rei-leao.jpg" alt="imagem de um leão e uma leoa" width="150px">
+                    <div class="categoria-conteudo">
+                        <h3 class="categoria-subtitulo">O Rei Leão </h3>
+                        <p class="resumo">
+                            Este desenho mostra as aventuras de um leão jovem de nome Simba, o herdeiro de seu pai, Mufasa. O tio malvado de Simba, Oscar, planeja roubar o trono de Mufasa atraindo pai e filho para uma emboscada. Simba consegue escapar e somente Mufasa morre. Com a ajuda de seus amigos,Timon e Pumba, ele reaparece como adulto para recuperar sua terra roubada por seu tio.
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
     <footer>
-        <p>@Copyright 2023 -Todos os direitos reservados</p>
+        <p class="copyright">@Copyright 2023 -Todos os direitos reservados</p>
     </footer>
 </body>
 </html>
